@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border: solid 1px black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.author {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.author p a {
+  text-decoration: none;
+}
+
+.author_tag {
+  display: flex;
+  flex-direction: column;
+}
